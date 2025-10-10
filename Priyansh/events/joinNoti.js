@@ -31,33 +31,25 @@ module.exports.run = async function({ api, event }) {
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 		const fs = require("fs");
-		return api.sendMessage("𝐇𝐄𝐋𝐋𝐎 𝐄𝐕𝐄𝐑𝐘𝐎𝐍𝐄🙋‍♂️", event.threadID, () => api.sendMessage({body:`🌺⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀  𝐁𝐎𝐓🦋🌺 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃«
+		return api.sendMessage("𝐇𝐄𝐋𝐋𝐎 𝐄𝐕𝐄𝐑𝐘𝐎𝐍𝐄🙋‍♂️", event.threadID, () => api.sendMessage({body:`🌺⃝𝙰𝚈𝙴𝚂𝙷𝙰 𝚀𝚄𝙴𝙴𝙽࿐  𝐁𝐎𝐓🦋🌺 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃«
 
-𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲𝐞 ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀 ☘️
+𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲: ཫ༄𝚂𝙱 𝙽𝙰𝙸𝙼 ☘️
 <------------------------------>  
 𝐁𝐎𝐓 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋!!! 
 
 𝐀𝐏𝐑𝐎𝐕𝐀𝐋 𝐀𝐋𝐋𝐎𝐖 𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏!!!
 <------------------------------>
 
-𝐔𝐒𝐄 𝐇𝐄𝐋𝐏 𝐓𝐎 𝐒𝐄𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒
-\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}video7 (video songs)\n${global.config.PREFIX}music (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}info 
 <<<<<------------------------------>>>>>
-AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
+AND FOR ANY REPORT OR CONTACT BOT DEVELOPER OR BOT ADMIN
 
-𝐎𝐖𝐍𝐄𝐑: ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀
+𝐎𝐖𝐍𝐄𝐑: ཫ༄𒁍 𝙰𝚈𝙴𝚂𝙷𝙰 𝚀𝚄𝙴𝙴𝙽 𝙰𝙹𝚂
 
 ♻️Facebook: 
 
-https://www.facebook.com/
+https://www.facebook.com/share/17Wu9hVUR5/
 
-Youtube Site : https://youtube.com/
-
-☢️Telegram: N/A
-
-☣️Email: 
-
-⚠️Wp: +923243375326`, attachment: fs.createReadStream(__dirname + "/cache/join.jpg")} ,threadID));
+ENJOY 🍁`, attachment: fs.createReadStream(__dirname + "/cache/join.jpg")} ,threadID));
 	}
 	else {
 		try {
@@ -78,7 +70,7 @@ Youtube Site : https://youtube.com/
 			}
 			memLength.sort((a, b) => a - b);
 			
-			(typeof threadData.customJoin == "undefined") ? msg = "╔════•|      ✿      |•════╗\n 🌿𝗛𝗲𝗹𝗹𝗼 🌿𝗕𝗮𝗯𝘆🌿 \n╚════•|      ✿      |•════╝\n\n    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n             [   {name} ]\n\n༄ 𝗠𝘆 𝗚𝗿𝗼𝘂𝗽✺࿐\n\n{threadName}\n\n 🥰🖤🌸𝗛𝗮𝗽𝗽𝘆🍀𝗘𝗻𝗷𝗼𝘆🍀—🌸🥀\n\n         🥀𝗠𝗮𝗷𝗲 𝗞𝗮𝗿𝗼🥀\n\n༄✺𝗢𝗿 𝗧𝘂𝗺 𝗜𝘀 𝗚𝗿𝗼𝘂𝗽 𝗞𝗲 {soThanhVien} 𝗠𝗲𝗺𝗯𝗲𝗿 𝗛𝗼 𝗘𝗻𝗷𝗼𝘆 𝗞𝗮𝗿𝗼 𝗠𝗮𝗷𝗲 𝗟𝗼 [ # ]࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n     ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥\n\n                           ☟                     \n\n      ❤️⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀❤️\n     ╚╩══•    •✠•❀•✠ •    •══╩╝" : msg = threadData.customJoin;
+			(typeof threadData.customJoin == "undefined") ? msg = "╔════•|      ✿      |•════╗\n 🌿𝗛𝗲𝗹𝗹𝗼 🌿𝗗𝗲𝗮𝗿🌿 \n╚════•|      ✿      |•════╝\n\n    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n             [   {name} ]\n\n༄ 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽✺࿐\n\n{threadName}\n\n 🥰🖤🌸𝗛𝗮𝗽𝗽𝘆🍀𝗘𝗻𝗷𝗼𝘆🍀—🌸🥀\n\n         🥀𝗠𝗼𝗷𝗮 𝗞𝗼𝗿𝗼🥀\n\n༄✺𝗔𝗿 𝘁𝘂𝗺𝗶 𝗲𝗶 𝗴𝗿𝗼𝘂𝗽 𝗲𝗿 {soThanhVien} 𝗠𝗲𝗺𝗯𝗲𝗿 𝗮𝗷 𝘁𝗵𝗲𝗸𝗲 [ # ]࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n     ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥\n\n                           ☟                     \n\n      ❤️⃝𝗔𝘆𝗲𝘀𝗵𝗮 𝗤𝘂𝗲𝗲𝗻 𝗔𝗝𝗦🙂\n     ╚╩══•    •✠•❀•✠ •    •══╩╝" : msg = threadData.customJoin;
 			msg = msg
 			.replace(/\{name}/g, nameArray.join(', '))
 			.replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
