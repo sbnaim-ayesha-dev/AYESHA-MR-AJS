@@ -12,7 +12,7 @@ module.exports.run = async function({ api, event }) {
 
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
       await api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "Bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-      return api.sendMessage(`Connected successfully! Type ${global.config.PREFIX}help to see available commands.`, threadID);
+      return api.sendMessage(`Connected successfully! `, threadID);
     }
 
     const threadData = await api.getThreadInfo(threadID);
