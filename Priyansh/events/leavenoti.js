@@ -29,18 +29,18 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   const { join } =  global.nodemodule["path"];
   const { threadID } = event;
   const moment = require("moment-timezone");
-  const time = moment.tz("Asia/Kolkata").format("DD/MM/YYYY || HH:mm:s");
-  const hours = moment.tz("Asia/Kolkata").format("HH");
+  const time = moment.tz("Asia/Dhaka").format("DD/MM/YYYY || HH:mm:s");
+  const hours = moment.tz("Asia/Dhaka").format("HH");
   const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
   const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
-  const type = (event.author == event.logMessageData.leftParticipantFbId) ? "KHUD SE LEFT HO GYE😀" : "ADMIN NE PEET K BHAGA DIYA😄😀";
+  const type = (event.author == event.logMessageData.leftParticipantFbId) ? "𝗘𝗞𝗔 𝗘𝗞𝗔𝗜 𝗖𝗢𝗟𝗘 𝗚𝗘𝗦𝗘😀" : "𝗔𝗗𝗠𝗜𝗡 𝗠𝗔𝗜𝗥𝗔 𝗕𝗘𝗥 𝗞𝗢𝗥𝗘 𝗗𝗜𝗦𝗘😄😀";
   const path = join(__dirname, "events", "123.mp4");
   const pathGif = join(path, `${threadID}123.mp4`);
   var msg, formPush
 
   if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-(typeof data.customLeave == "undefined") ? msg = "[⚜️] 👉🏻 {name} 👈🏻\n👉 {type}  [⚜️] \n 𝐉𝐀𝐍𝐄 𝐃𝐎 𝐔𝐒𝐊𝐎 𝐓𝐔𝐌 𝐋𝐎𝐆 𝐄𝐍𝐉𝐎𝐘 𝐊𝐑𝐎 🫠\nGood {session} || {time}" : msg = data.customLeave;
+(typeof data.customLeave == "undefined") ? msg = "[⚜️] 👉🏻 {name} 👈🏻\n👉 {type}  [⚜️] \n 𝗧𝗼𝗺𝗿𝗮 𝗺𝗼𝗷𝗮 𝗸𝗼𝗿𝗼 𝗷𝗲 𝗴𝗲𝘀𝗲 𝘀𝗵𝗲 𝗴𝗲𝘀𝗲 🫠\nGood {session} || {time}" : msg = data.customLeave;
   msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type).replace(/\{session}/g, hours <= 10 ? "Morning" : 
     hours > 10 && hours <= 12 ? "Afternoon" :
     hours > 12 && hours <= 18 ? "Evening" : "Night").replace(/\{time}/g, time);  
