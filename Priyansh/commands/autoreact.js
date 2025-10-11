@@ -11,7 +11,7 @@ const fs = require("fs");
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("hahaha") || react.includes("HAHA") || react.includes("pakyu") || react.includes("Pakyu") || react.includes("bobo") || react.includes("gogo") || react.includes("poko") ||  react.includes("tang") || react.includes("pak") || react.includes("shit") || react.includes("hahhahahh") || react.includes("lol") || react.includes("LOL") || react.includes("ulol") ||   react.includes("bts") || react.includes("Bts") || react.includes("BTS") ||  react.includes("bano") ||  react.includes("😆") || react.includes("😂") || react.includes(":)") || react.includes("🙂") || react.includes("😹") || react.includes("🤣") ||   react.includes("suntukan") || react.includes("stupid") || react.includes("fuck") || react.includes("fuckyou") ||   react.includes("bold") || react.includes("Bold") || react.includes("hahah") || react.includes("nan") || react.includes("hhaha") || react.includes("bisaya") || react.includes("gagi") || react.includes("bastos") || react.includes("Bastos") || react.includes("deputa") || react.includes("Deputa") || react.includes("puta") || react.includes("Puta") || react.includes("Pota") || react.includes("baboy") || react.includes("kababuyan") || react.includes("🖕") || react.includes("🤢") || react.includes("😝") || react.includes("hayup") || react.includes("hayop") || react.includes("nigga") || react.includes("Nigga") || react.includes("script kiddie") || react.includes("trash") || react.includes("Hayop") || react.includes("Hayup") || react.includes("kagagohan") || react.includes("kagaguhan") || react.includes("Nan") || react.includes("kingina") || react.includes("Kingina") || react.includes("KINGINA") || react.includes("hindot") || react.includes("jesus") || react.includes("Jesus") || react.includes ("jesos") || react.includes("Jesos") || react.includes("hahahahah") || react.includes("pagal") || react.includes("Script kiddie") || react.includes("lmao") || react.includes("Lmao") || react.includes("LMAO") || react.includes("xd") || react.includes("Xd") || react.includes("XD") || react.includes("biot") || react.includes("Biot") || react.includes("bayot") || react.includes("Bayot") || react.includes("Bayut") || react.includes("bayut") || react.includes("bakla") || react.includes("Bakla") || react.includes("bading") || react.includes("Bading") || react.includes("poor") || react.includes("ok")) {
+	if(react.includes("hahaha") || react.includes("HAHA") || react.includes("lol") || react.includes("Lol") || react.includes("bobo") || react.includes("gogo") || react.includes("poko") ||  react.includes("tang") || react.includes("pak") || react.includes("shit") || react.includes("hahhahahh") || react.includes("lol") || react.includes("LOL") || react.includes("ulol") ||   react.includes("bts") || react.includes("Bts") || react.includes("BTS") ||  react.includes("bano") ||  react.includes("😆") || react.includes("😂") || react.includes(":)") || react.includes("🙂") || react.includes("😹") || react.includes("🤣") ||   react.includes("suntukan") || react.includes("stupid") || react.includes("fuck") || react.includes("fuckyou") ||   react.includes("bold") || react.includes("Bold") || react.includes("hahah") || react.includes("nan") || react.includes("hhaha") || react.includes("bisaya") || react.includes("gagi") || react.includes("bastos") || react.includes("Bastos") || react.includes("deputa") || react.includes("Deputa") || react.includes("puta") || react.includes("Puta") || react.includes("Pota") || react.includes("baboy") || react.includes("kababuyan") || react.includes("🖕") || react.includes("🤢") || react.includes("😝") || react.includes("hayup") || react.includes("hayop") || react.includes("nigga") || react.includes("Nigga") || react.includes("script kiddie") || react.includes("trash") || react.includes("Hayop") || react.includes("Hayup") || react.includes("kagagohan") || react.includes("kagaguhan") || react.includes("Nan") || react.includes("kingina") || react.includes("Kingina") || react.includes("KINGINA") || react.includes("hindot") || react.includes("jesus") || react.includes("Jesus") || react.includes ("jesos") || react.includes("Jesos") || react.includes("hahahahah") || react.includes("pagal") || react.includes("Script kiddie") || react.includes("lmao") || react.includes("Lmao") || react.includes("LMAO") || react.includes("xd") || react.includes("Xd") || react.includes("XD") || react.includes("biot") || react.includes("Biot") || react.includes("bayot") || react.includes("Bayot") || react.includes("Bayut") || react.includes("bayut") || react.includes("bakla") || react.includes("Bakla") || react.includes("bading") || react.includes("Bading") || react.includes("poor") || react.includes("ok")) {
     var msg = {
 				body: ""
 			}
@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     api.setMessageReaction("😂", event.messageID, (err) => {}, true)
           };
   
-  if(react.includes("Soul") || react.includes("soul")) {
+  if(react.includes("Ayesha") || react.includes("ayesha")) {
     var msg = {
 				body: ""
 			}
@@ -41,12 +41,12 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 			api.sendMessage(sad, threadID, messageID);
     api.setMessageReaction("😢", event.messageID, (err) => {}, true)
           };
-  if(react.includes("India") || react.includes("india") || react.includes("bharat") || react.includes("Bharat")) {
+  if(react.includes("Bangali") || react.includes("bangali") || react.includes("bangladesh") || react.includes("Bangladesh")) {
       var flag = {
 				body: ""
 			}
 			api.sendMessage(sad, threadID, messageID);
-    api.setMessageReaction("🇮🇳", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🇧🇩", event.messageID, (err) => {}, true)
           };
   if(react.includes("eve") || react.includes("Eve") || react.includes("morning") || react.includes("Morning") || react.includes("afternoon") || react.includes("Afternoon") || react.includes("evening") || react.includes("eat") || react.includes("Eat") || react.includes("night") || react.includes("nyt") || react.includes("Night") || react.includes("Nyt")) {
       var heart = {
