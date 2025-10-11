@@ -70,7 +70,7 @@ setTimeout(() => {a({body: "TERIII BEHNN KOO KHADA KR K3 CHODUU 😗😗😗😗
 setTimeout(() => {a({body: "TETIII MOSIII KAA BOOBS DABA DATA KE BIG BIG KR DU 😌😌😌😌😌😌😌😌😌😌😌😌😌😌😌"})} , 60000);
 setTimeout(() => {a({body: "TERIII NANI KII KALII CHUTT MARUU 😏😏😏😏😏😏😏😏😏😏"})} , 60500);
 setTimeout(() => {a({body: "TWRII NANI KALII CHUTT MAI MUTU GA BOSDKE FEEL APNE BAAPNKO 😈😈😈😈😈😈"})} , 61000);
-setTimeout(() => {a({body: ""})} , 61500);
+setTimeout(() => {a({body: "WAR BY ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑 SALA AMAR SATHE LAGTE ASHE HASSOKOR VALO MANUSH ER SATHE LAGTE ASSOS"})} , 61500);
 
 
   
