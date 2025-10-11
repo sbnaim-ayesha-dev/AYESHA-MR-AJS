@@ -161,9 +161,9 @@ module.exports.run = async function({ api, event, Threads, args, Users }) {
     var uid = event.senderID;
 
     const moment = require("moment-timezone");
-    var gio = moment.tz("Asia/Manila").format("HH:mm:ss D/MM/YYYY");
+    var gio = moment.tz("Asia/Dhaka").format("HH:mm:ss D/MM/YYYY");
     var soad = global.config.ADMINBOT.length;
-    api.sendMessage(`[🤖] - Bot has just successfully sent your message to ${soad} to my owner 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭 🍄 \n[⏰] - Time: ${gio}`,
+    api.sendMessage(`[🤖] - Bot has just successfully sent your message to ${soad} to my owner≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑 🍄 \n[⏰] - Time: ${gio}`,
       event.threadID,
       () => {
         var idad = global.config.ADMINBOT;
