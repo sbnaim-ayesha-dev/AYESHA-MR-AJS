@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Cigarette")==0 || event.body.indexOf("cigarette")==0 || event.body.indexOf("Ciggerate")==0 || event.body.indexOf("Cigrate")==0) {
+	if (event.body.indexOf("Cigaret")==0 || event.body.indexOf("cigaret")==0 || event.body.indexOf("Cigerat")==0 || event.body.indexOf("Cigrate")==0) {
 		var msg = {
-				body: "💝 YE LO BBY  DONO MIL KR CIGARETTE 🚬, PIYENGE 😀😅🤭\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀❤️-)",
+				body: "💝 YE LO BBY  DONO MIL KR CIGARETTE 🚬, PIYENGE 😀😅🤭\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑-)",
 				attachment: 
 fs.createReadStream(__dirname + `/cache/Cigarette.jpeg`)
 			}
