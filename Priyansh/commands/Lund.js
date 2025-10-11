@@ -12,12 +12,12 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("lund") ||
-     react.includes("LUND") || react.includes("LND") || react.includes("lnd") ||
+  if(react.includes("land") ||
+     react.includes("Land") || react.includes("LND") || react.includes("lnd") ||
 react.includes("laude") ||
 react.includes("loda")) {
     var msg = {
-        body: `लोहे का लन्ड है मेरा निकल के हाथ में दे दूंगा।😐😒👈`,
+        body: `I have an iron penis, I will take it out and give it to you😐😒👈`,
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😆", event.messageID, (err) => {}, true)
