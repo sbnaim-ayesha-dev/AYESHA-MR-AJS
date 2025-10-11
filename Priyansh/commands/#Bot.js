@@ -21,7 +21,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "pagol bot") || (event.body.toLowerCase() == "abal bot")) {
-     return api.sendMessage("Amar boss dekhle nogod e hoda phatabe tor 😾 :))", threadID);
+     return api.sendMessage("Amar boss dekhle nogod e hoga phatabe tor 😾 :))", threadID);
    };
 
     if ((event.body.toLowerCase() == "mc bot") || (event.body.toLowerCase() == "bc bot")) {
@@ -69,7 +69,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
   
    if ((event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "owner")) {
-     return api.sendMessage("‎🍁𝐎𝐖𝐍𝐄𝐑🍁:𝄟  𝆺𝅥⃝AYESHA QUEEN AJS  𝄟\n 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ⚡ ཫ༄𒁍AYESHA QUEEN⚡. 𝐇er 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 : https://www.facebook.com/share/17Wu9hVUR5/ ", threadID);
+     return api.sendMessage("‎🍁𝐎𝐖𝐍𝐄𝐑🍁:𝄟  𝆺𝅥⃝AYESHA QUEEN AJS  𝄟\n YOU CAN CALL HER ⚡ ཫ༄𒁍AYESHA QUEEN⚡. 𝐇er 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 : https://www.facebook.com/share/17Wu9hVUR5/ ", threadID);
    };
 
    if ((event.body.toLowerCase() == "who make you") || (event.body.toLowerCase() == "ke banaise")) {
