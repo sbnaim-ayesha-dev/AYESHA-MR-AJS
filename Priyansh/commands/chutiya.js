@@ -12,10 +12,10 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("chutiya") ||
-     react.includes("Chutiya") || react.includes("CHUTIYA") || react.includes("chutiye") ||
-react.includes("Chutiye") ||
-react.includes("CHUTIYE")) {
+  if(react.includes("cutiya") ||
+     react.includes("Cutiya") || react.includes("CHUTIYA") || react.includes("chutiye") ||
+react.includes("Cutiye") ||
+react.includes("CUTIYE")) {
     var msg = {
         body: `${name} तु चुतिया तेरा बाप चुतिया तेरा पूरा खानदान चुतिया।🤯😐😒👈`,
       }
