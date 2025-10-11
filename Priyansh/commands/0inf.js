@@ -24,23 +24,23 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://imgur.com/a/FXhpXW0"];
+["https://imgur.com/5bJHCiS"];
 var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿) 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀︎︎︎☜︎︎︎✰🥀
+🔥Bot Admin🔥AYESHA QUEEN🥀
 
-🙈bot andmin owner facebook id link🙈➪ https://www.facebook 💞🕊️
+🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/share/16okTbQZdZ/ 💞🕊️
 
-👋For Any Kind Of Help Contact On Telegram  Username 👉 ⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀😇
+👋For Any Kind Of Help Contact On Telegram  Username 👉ཫ༄≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑
 
 ✧══════•❁❀❁•══════✧
 
 🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀☜︎︎︎✰ 
+♥️Bot Owner♥️ AYESHA QUEEN 
 
 🥳UPTIME🥳
 
@@ -52,9 +52,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✰🍒.        ⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀          🌿✰.✧✦🌸
-┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+       ཫ༄≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑
 
 
 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
