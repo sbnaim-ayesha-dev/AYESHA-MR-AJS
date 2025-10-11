@@ -98,7 +98,7 @@ module.exports.run = async ({ event, api }) => {
     msg += (`\n${i}. Name: ${user.node.name}`
          + `\n📔 𝗜𝗗: ${user.node.id}`
          + `\n🌐 𝗨𝗥𝗟: ${user.node.url.replace("www.facebook", "fb")}`
-         + `\n⏰ Time: ${moment(user.time*1009).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}\n`);
+         + `\n⏰ Time: ${moment(user.time*1009).tz("Asia/Dhaka").format("DD/MM/YYYY HH:mm:ss")}\n`);
   }
   api.sendMessage(`${msg}\n📌 Reply to this message with content: < 𝗮𝗱𝗱/𝗱𝗲𝗹 > + sequence number or < 𝗮𝗹𝗹 > If you want to do it `, event.threadID, (e, info) => {
       global.client.handleReply.push({
