@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("JALEBI")==0 || event.body.indexOf("Jalebi")==0 || event.body.indexOf("jalebi")==0 || event.body.indexOf(".jalebi")==0) {
+	if (event.body.indexOf("Jilapi")==0 || event.body.indexOf("jilapi")==0 || event.body.indexOf("jalebi")==0 || event.body.indexOf(".Jalebi")==0) {
 		var msg = {
-				body: "💝 YE LO BBY JALEBI KHAO 🥨\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀❤️-)",
+				body: "💝 YE LO BBY JALEPI KHAO 🥨\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑-)",
 				attachment: 
 fs.createReadStream(__dirname + `/cache/Jalebi.jpg`)
 			}
