@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("GOLGAPPE")==0 || event.body.indexOf("Golgap")==0 || event.body.indexOf("golgap")==0 || event.body.indexOf("Panipuri")==0) {
+	if (event.body.indexOf("GOLGAPPE")==0 || event.body.indexOf("fuska")==0 || event.body.indexOf("Fuskap")==0 || event.body.indexOf("Panipuri")==0) {
 		var msg = {
 				body: "💝 YE LO BBY GOLGAPPE KHAO 😋\n\n(-𝐌𝐚𝐝𝐞 ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑-)",
 				attachment: 
