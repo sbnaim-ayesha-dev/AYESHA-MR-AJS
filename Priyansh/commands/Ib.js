@@ -12,12 +12,12 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("ib a") ||
-     react.includes("Ib s") || react.includes("IB") || react.includes("INBOX") ||
+  if(react.includes("ib") ||
+     react.includes("Ib") || react.includes("IB") || react.includes("INBOX") ||
 react.includes("inbox") ||
 react.includes("Inbox")) {
     var msg = {
-        body: `ओय शरम नही आती इनबॉक्स बुलाते हो किसी को जो बोलना है यही बोलो समझे।😒😐👈`,
+        body: `Hey, don't you feel ashamed of calling someone inbox? Whatever you want to say, say it here, understand?।😒😐👈`,
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("👀", event.messageID, (err) => {}, true)
