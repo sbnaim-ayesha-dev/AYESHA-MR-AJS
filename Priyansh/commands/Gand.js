@@ -12,12 +12,12 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("gand de") ||
-     react.includes("GAND DE") || react.includes("GND DO") || react.includes("Gand de") ||
-react.includes("gand do") ||
-react.includes("GAND DO")) {
+  if(react.includes("peson mar") ||
+     react.includes("hoga mar") || react.includes("Gand") || react.includes("gand") ||
+react.includes("sex") ||
+react.includes("dhukai de")) {
     var msg = {
-        body: `गांड़ तो नही है लोहे का लंड है ले लो रात भर रखना सुबह दे देना सुसु करने के लिए।😐😒👈`,
+        body: `It's not an ass, it's an iron dick, take it and keep it overnight and give it to me in the morning to pee।😐😒👈`,
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😆", event.messageID, (err) => {}, true)
