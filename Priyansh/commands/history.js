@@ -27,7 +27,7 @@ for(let box of allbox) {
     try{
   let settings = (await Threads.getData(box.threadID)).settings || {};
   
-  if(!settings.lastUse) {dontuse += box.name+"\nAdmin only\n\n"}
+  if(!settings.lastUse) {dontuse += box.name+"\nAdmin only Only Ayesha Can Change The Bot Info\n\n"}
      else{
     var datenow = settings.lastUse.datenow;
     var time = settings.lastUse.time;
