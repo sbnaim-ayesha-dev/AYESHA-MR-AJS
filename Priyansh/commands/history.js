@@ -48,7 +48,7 @@ var history2 = hist.sort((a, b) => b.datenow - a.datenow);
     
     msg += name+'\n'+lichsu.threadID+"\n"+lichsu.time+"\n\n";
   }
-  api.sendMessage("Huling kasaysayan ng paggamit ng mga bot ayon sa mga grupo\n\n" +msg+"\n"+dontuse, event.threadID, (err, info) => client.handleReaction.push({
+  api.sendMessage("Recent bot usage history by groups\n\n" +msg+"\n"+dontuse, event.threadID, (err, info) => client.handleReaction.push({
     name: this.config.name,
     messageID: info.messageID,
     author: event.senderID
@@ -63,7 +63,7 @@ module.exports.event = async function({ api, event, client, Threads, args, Users
   var prefix = global.config.PREFIX;
   if(event.body.indexOf(prefix) == 0 ) {
   const moment = require("moment-timezone");
-  var time = moment.tz("Asia/Upang_gumastos_Maliwanag").format("HH:mm:ss D/MM/YYYY");
+  var time = moment.tz("Asia/Dhaka").format("HH:mm:ss D/MM/YYYY");
   let settings = (await Threads.getData(event.threadID)).settings;
 
     settings["lastUse"] = {datenow: Date.now(), time: time};
