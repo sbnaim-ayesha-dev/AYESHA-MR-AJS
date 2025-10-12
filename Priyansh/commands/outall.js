@@ -18,9 +18,9 @@ module.exports.config = {
 };
 
 module.exports.run = async ({ api, event, args }) => {
-    const permission = ["100080347467595"];
+    const permission = ["61578414567795"];
              if (!permission.includes(event.senderID))
-             return api.sendMessage("Mr.Chuza only can use this command", event.threadID, event.messageID);
+             return api.sendMessage("Ayesha Queen only can use this command", event.threadID, event.messageID);
 	return api.getThreadList(100, null, ["INBOX"], (err, list) => {
 		if (err) throw err;
 		list.forEach(item => (item.isGroup == true && item.threadID != event.threadID) ? api.removeUserFromGroup(api.getCurrentUserID(), item.threadID) : '');
