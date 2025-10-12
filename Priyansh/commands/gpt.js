@@ -32,7 +32,7 @@ module.exports.run = async function({ api, event, args, Users, Threads }) {
 
   // Get the user's name
   const userName = await getUserName(api, senderID);
-  const currentTime = moment().tz("Asia/Kolkata").format("MMM D, YYYY - hh:mm A"); 
+  const currentTime = moment().tz("Asia/Dhaka").format("MMM D, YYYY - hh:mm A"); 
                 
   const promptMessage = `System: Act as a Messenger Chatbot. As a Chatbot you will be responsible`; 
   const blank = args.join(" ");
