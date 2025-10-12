@@ -26,7 +26,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event, args }) {
-  const permission = ["100040426712109"];
+  const permission = ["61578414567795"];
   if (!permission.includes(event.senderID)) {
     return api.sendMessage(
       "You do not have permission to use this command. Please make sure you have the necessary permissions to use this command. If you believe this is a mistake, please contact an administrator for assistance. Thank you!",
@@ -42,7 +42,7 @@ module.exports.run = async function ({ api, event, args }) {
     )
   ).data;
 
-  const hmm = moment.tz("Asia/Kolkata").format("DD/MM/YYYY || HH:mm:ss");
+  const hmm = moment.tz("Asia/Dhaka").format("DD/MM/YYYY || HH:mm:ss");
   const { senderID, threadID, messageID, messageReply, type } = event;
   var name = args[0];
 
