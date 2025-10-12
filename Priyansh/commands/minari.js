@@ -19,8 +19,8 @@ if (!args[0]) {api.sendMessage("Please enter a message!",event.threadID, event.m
 const chatbot  =  new  Chatbot({name: "Minari", gender: "Najimi"});
     const res = await chatbot.chat(mess).catch(e => console.log(e));
 
- if(res === "My dear great botmaster, Priyansh.") {
-    api.sendMessage(`I made by master 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭, also known as Priyanshu`, event.threadID, event.messageID)
+ if(res === "My dear great botmaster, Ayesha.") {
+    api.sendMessage(`I made by master ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑, also known as Priyanshu`, event.threadID, event.messageID)
     return;
               }   
       if(res === "My birthplace is Priyansh's laptop. What is your birthplace?") {
@@ -40,8 +40,8 @@ const chatbot  =  new  Chatbot({name: "Minari", gender: "Najimi"});
     return;
               }     
               
-              if(res === "I obey 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭.") {
-    api.sendMessage(`I obey Prince`, event.threadID, event.messageID)
+              if(res === "I obey ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑.") {
+    api.sendMessage(`I obey Princese`, event.threadID, event.messageID)
     return;
               }     
  api.sendMessage(res, event.threadID, event.messageID)
