@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if(react.includes("Song") ||
      react.includes("song") || react.includes("ghana") || react.includes("gana") ||
 react.includes("Gana") ||
-react.includes("siing")) {
+react.includes("sing")) {
 		var msg = {
 				body: `गाना सुना है तो .𝐦𝐮𝐬𝐢𝐜 फिर गाना का नाम लिख दो मेरी जान 🙂🖐️`,
 			}
