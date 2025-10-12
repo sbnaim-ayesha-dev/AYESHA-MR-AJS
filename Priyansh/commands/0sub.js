@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if (event.body.indexOf("Ayesha")==0 || event.body.indexOf("AYESHA")==0 || event.body.indexOf("ayesha")==0 || event.body.indexOf("A Y E")==0) {
 		var msg = {
 				body: "👋For Any Kind Of Help Contact To Admin 👉 AYESHA QUEEN 😇",
-				attachment: fs.createReadStream(__dirname + `/noprefix/sub.mp3`)
+				attachment: fs.createReadStream(__dirname + `/noprefix/---.mp3`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🔔", event.messageID, (err) => {}, true)
