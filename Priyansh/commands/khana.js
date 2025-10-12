@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
-  if (event.body.indexOf("KHANA")==0 || event.body.indexOf("Khana")==0 || event.body.indexOf("khana")==0 || event.body.indexOf("khana")==0) {
+  if (event.body.indexOf("Khabar")==0 || event.body.indexOf("Khana")==0 || event.body.indexOf("khana")==0 || event.body.indexOf("khabar")==0) {
     var msg = {
-        body: "💝 AAO BABY KHANA KHALO 🍛\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀❤️-)",
+        body: "💝 AAO BABY KHANA KHALO 🍛\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑-)",
         attachment: 
 fs.createReadStream(__dirname + `/cache/khana.jpeg`)
       }
