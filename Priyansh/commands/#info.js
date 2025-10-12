@@ -37,7 +37,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 👋For Any Kind Of Help 😇
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+🌸Bot🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
 ♥️Bot Owner♥️ ཫ༄≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑
 
