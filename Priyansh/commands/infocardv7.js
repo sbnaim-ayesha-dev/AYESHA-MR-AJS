@@ -22,7 +22,7 @@ module.exports.circle = async (image) => {
   return await image.getBufferAsync("image/png");
 }
 module.exports.run = async function ({ api, event, args, Users }) {
-  if ((this.config.credits) != "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭") { return api.sendMessage(`Ulol change credits pa bobo`, event.threadID, event.messageID)}
+  if ((this.config.credits) != "≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑") { return api.sendMessage(`Ulol change credits pa bobo`, event.threadID, event.messageID)}
   let { senderID, threadID, messageID } = event;
   const { loadImage, createCanvas } = require("canvas");
   const request = require('request');
