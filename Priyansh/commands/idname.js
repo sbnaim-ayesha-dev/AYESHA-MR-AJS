@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf(".bot")==0 || event.body.indexOf("#bot")==0 || event.body.indexOf("+bot")==0 || event.body.indexOf("$bot")==0) {
+	if (event.body.indexOf("bot")==0 || event.body.indexOf("#bot")==0 || event.body.indexOf("+bot")==0 || event.body.indexOf("Bot")==0) {
 		var msg = {
-				body: "✨● Hy ☆ Me ek bot hu  𝐁𝐨𝐭 𝐏𝐫𝐞𝐟𝐢𝐱 . 👈🏻 use .help2 for commands ✨ 🌹𝐌𝐚𝐝𝐞 𝐛𝐲 ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀🩷🪽 😊💫",
+				body: "✨● Hy ☆ Me ek bot hu ✨ 🌹𝐌𝐚𝐝𝐞 𝐛𝐲 ≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑 😊💫",
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("💣", event.messageID, (err) => {}, true)
