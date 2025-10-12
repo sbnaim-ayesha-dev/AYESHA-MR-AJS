@@ -12,10 +12,10 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Alona Prisha")==0 || event.body.indexOf("@Aɭoŋa SHʌʀʌɓɩ Bʌɗɱʌsʜ")==0 || event.body.indexOf("Riya")==0 || event.body.indexOf("Aaryan ki besti")==0) {
+	if (event.body.indexOf("Ayesha")==0 || event.body.indexOf("ayesha")==0 || event.body.indexOf("ajs")==0 || event.body.indexOf("AJS")==0) {
 		var msg = {
-				body: "❤️𝐘𝐄 𝐋𝐎 𝐑𝐈𝐘𝐀 𝐉𝐈 𝐀 𝐆𝐀𝐈🙈",
-				attachment: fs.createReadStream(__dirname + `/cache/riya.jpg`)
+				body: "❤️she is busy 🙈",
+				attachment: fs.createReadStream(__dirname + `/cache/---.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😇", event.messageID, (err) => {}, true)
