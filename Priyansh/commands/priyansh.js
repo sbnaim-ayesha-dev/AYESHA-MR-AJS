@@ -19,13 +19,13 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
     }
 
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Priyansh Ra𝐛𝐛jput")==0 || event.body.indexOf("@𝐓ɽ͜͡𝐮𝐬ʈ 𝐌̽𝐞 𝐁𝐚͜͡𝐛ɣ̈̈›› 𝐈 𝐖ɪ̽ɭɭ ဗီူံ ๛⃝𓆩𝐁ɽ͜͡𝐞̽ɑ̽𝐤 𝐘ǿ𝐮̽ɾ 𝐇𝐞̽𝐚͜͡𝐫ʈﮩﮩــﮩــــ𓆩  𓆪〘̶𑁍 〘̶𑁍𓆩⃝P̶R̶I̶Y̶A̶𝐯N̶S̶H̶𓆪 † 』𓆩๏̬̬̬̬̬̬𓆪†『٭𝐱͜͡⃝ 𝐯𝐯ᴆ』†٭❯")==0 || event.body.indexOf("@Prîyáns𝐯𝐯h Rajpût")==0 || event.body.indexOf("Priyan𝐯𝐯𝐯sh")==0) {
+	if (event.body.indexOf("admin")==0 || event.body.indexOf("ajs")==0 || event.body.indexOf("ayesha")==0 || event.body.indexOf("Ayesha")==0) {
 		var msg = {
-				body: "Prîyansh ✨💖🥀",
+				body: "≛⃝𝙰𝚈𝙴𝙰𝙷𝙰 𝚀𝚄𝙴𝙴𝙽👑",
 				attachment: fs.createReadStream(__dirname + `/g`)
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("💔", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😙", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
