@@ -73,7 +73,7 @@ module.exports.languages = {
         "on": "on",
         "off": "off",
         "successText": "success notification rankup!",
-        "levelup": "👉𝐓𝐮𝐦 𝐁𝐚𝐡𝐮𝐭 𝐏𝐲𝐚𝐫𝐞 𝐇𝐨😘 {name} 🥰😍🤟",
+        "levelup": "👉RANK UP😘 {name} 🥰😍🤟",
     }
 }
 
