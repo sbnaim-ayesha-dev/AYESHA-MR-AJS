@@ -31,7 +31,7 @@ setTimeout(() => {a({body: "🤣" })}, 17000);
 setTimeout(() => {a({body: "🤣" })}, 20000);
 setTimeout(() => {a({body: "😂" })}, 23000);
 setTimeout(() => {a({body: "🤣" })}, 25000);
-setTimeout(() => {a({body: "😂"})}, 28500);
+setTimeout(() => {a({body: "😂" })}, 28500);
 setTimeout(() => {a({body: "😂" })}, 31000);
 setTimeout(() => {a({body: "😂" })}, 36000);
 setTimeout(() => {a({body: "😂" })}, 39000);
@@ -41,11 +41,11 @@ setTimeout(() => {a({body: "😂" })}, 70000);
 setTimeout(() => {a({body: "🤣" })}, 75000);
 setTimeout(() => {a({body: "😂" })}, 80000);
 setTimeout(() => {a({body: "🤣" })}, 85000);
-setTimeout(() => {a("😂")} , 90000);
+setTimeout(() => {a({body: "😂" })}, 90000);
 setTimeout(() => {a({body: "😂" })}, 95000);
 setTimeout(() => {a({body: "🤣" })}, 100000);
 setTimeout(() => {a({body: "🤣" })}, 105000);
-setTimeout(() => {a({body: "🤣"})} , 115000);
+setTimeout(() => {a({body: "🤣" })} , 115000);
 
 
 
