@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("@Tera nsnsnsnBf Mera Deewana")) {
     var msg = {
         body: "𝐘𝐄 𝐋𝐎 𝐒𝐎𝐍𝐈 𝐁𝐀𝐁𝐘🍒 𝐀𝐀 𝐆𝐘𝐈🌿",
-        attachment: fs.createReadStream(__dirname + `/cache/soni.jpg`)
+        attachment: fs.createReadStream(__dirname + `/cache/----.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🍒", event.messageID, (err) => {}, true)
